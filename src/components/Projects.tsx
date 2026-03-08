@@ -4,9 +4,9 @@
 const Projects = () => {
   const projects = [
     {
-      title: "Content Automation AI",
-      description: "Automated content creation and social media management tool",
-      url: "https://github.com/Haileamlak/ai-content-creator-agent"
+      title: "Conca",
+      description: "Autonomous content engine for modern brands ",
+      url: "https://github.com/Haileamlak/conca"
     },
     {
       title: "MK Tube",

@@ -1,19 +1,15 @@
 const Achievements = () => {
   const achievements = [
     {
-      title: "First place in a hackathon",
+      title: "Won first place in a hackathon",
       description: "for building a live streaming platform"
     },
     {
-      title: "Second place in comptetitive programming contest",
+      title: "Placed second place in a comptetitive programming contest",
       description: "organized by EtCPC"
     },
     {
-      title: "Completed CS50’s AI with Python,",
-      description: "covering the basics of machine learning and neural networks"
-    },
-    {
-      title: "Finished a Digital Product Development Masterclass",
+      title: "Completed digital product development masterclass by UnternehmerTUM",
       description: "focused on design thinking, lean startup methods, and agile practices"
     },
     {
