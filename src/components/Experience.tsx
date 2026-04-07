@@ -3,21 +3,21 @@ import a2svLogo from '@/assets/a2sv-logo.png'
 import guzoAiLogo from '@/assets/guzoailogo.png'
 const Experience = () => {
   const experiences = [
-    {
-      title: "Founder & CEO",
-      company: "Guzo AI",
-      companyUrl: "https://guzo-ai.web.app",
-      location: "Addis Ababa, Ethiopia",
-      period: "Jan. 2026 - Present",
-      current: true,
-      logo: guzoAiLogo,
-    },
+    // {
+    //   title: "Founder & CEO",
+    //   company: "Guzo AI",
+    //   companyUrl: "https://guzo-ai.web.app",
+    //   location: "Addis Ababa, Ethiopia",
+    //   period: "Jan. 2026 - Present",
+    //   current: true,
+    //   logo: guzoAiLogo,
+    // },
     {
       title: "Software Engineer",
       company: "EagleLion System Technology",
       companyUrl: "https://eaglelionsystems.com",
       location: "Addis Ababa, Ethiopia",
-      period: "Jul. 2025 - Jan. 2026",
+      period: "Jul. 2025 - Present",
       current: false,
       logo: eaglelionLogo,
     },

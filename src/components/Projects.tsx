@@ -4,6 +4,11 @@
 const Projects = () => {
   const projects = [
     {
+      title: "Guzo AI",
+      description: "Personalized travel assistant for people exploring Ethiopia. ",
+      url: "https://drive.google.com/file/d/1FRjvPq7451wT8h8C-jS1m6xK29xbCn_i/view"
+    },
+    {
       title: "Conca",
       description: "Autonomous content engine for modern brands ",
       url: "https://github.com/Haileamlak/conca"
@@ -12,11 +17,6 @@ const Projects = () => {
       title: "MK Tube",
       description: "Video streaming platform",
       url: "https://github.com/Haileamlak/mk-tube-video-streaming"
-    },
-    {
-      title: "Blog API",
-      description: "RESTful API for blog management with AI functionalities",
-      url: "https://github.com/Haileamlak/blog-api"
     },
     {
     title: "Finote",
