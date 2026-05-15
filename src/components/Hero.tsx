@@ -12,9 +12,9 @@ const Hero = () => {
           />
           <div>
             <h1 className="text-2xl font-normal mb-2">
-              Hey, I'm Haileamlak Belachew.
+              Haileamlak Belachew.
             </h1>
-            <h2>A software engineer from Ethiopia.</h2>
+            <h2>Software Engineer.</h2>
           </div>
         </div>
 
