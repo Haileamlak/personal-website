@@ -126,14 +126,26 @@ const Index = () => {
       <div className={`pointer-events-none absolute inset-0 ${palette.glow}`} />
 
       <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-[1400px] flex-col px-4 pb-8 pt-6 sm:px-8">
-        <header className="mb-8 flex items-center justify-between">
-          <span className={`inline-flex items-center rounded-2xl border p-2 ${palette.card}`}>
-            <img src={websiteLogo} alt="HB" className="h-8 w-8 rounded-md object-cover" />
-          </span>
+        <header className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex items-center justify-between">
+            <span className={`inline-flex items-center rounded-2xl border p-2 ${palette.card}`}>
+              <img src={websiteLogo} alt="HB" className="h-8 w-8 rounded-md object-cover" />
+            </span>
+            <button
+              type="button"
+              onClick={() => setIsDark((prev) => !prev)}
+              className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition sm:hidden ${palette.button}`}
+            >
+              {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+              {isDark ? "Light Mode" : "Dark Mode"}
+            </button>
+          </div>
+          <p className="hidden sm:block text-center">A word is enough to the wise.</p>
+          <p className="sm:hidden text-center">A word is enough to the wise.</p>
           <button
             type="button"
             onClick={() => setIsDark((prev) => !prev)}
-            className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition ${palette.button}`}
+            className={`hidden items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition sm:inline-flex ${palette.button}`}
           >
             {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             {isDark ? "Light Mode" : "Dark Mode"}
